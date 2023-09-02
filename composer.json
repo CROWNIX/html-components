@@ -1,0 +1,26 @@
+{
+    "name": "crownix/html-components",
+    "description": "HTML Components with bootstrap 5",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Crownix\\HtmlComponents\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "CROWNIX",
+            "email": "rahmatfauzi841@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Crownix\\HtmlComponents\\HtmlComponentsServiceProvider"
+            ]
+        }
+    }
+}
